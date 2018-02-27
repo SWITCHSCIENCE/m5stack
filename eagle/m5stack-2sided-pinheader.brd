@@ -401,75 +401,10 @@ design rules under a new name.</description>
 <element name="PINH-FEMAIL" library="m5stack" package="SMD-PINH-2X15-C" value="2X15" x="44.05" y="25" rot="MR0"/>
 </elements>
 <signals>
-<signal name="MOSI">
-<contactref element="PINH-MAIL" pad="8"/>
-<contactref element="PINH-FEMAIL" pad="7"/>
-<via x="45.6" y="35.16" extent="1-16" drill="0.35"/>
-<via x="47.1" y="35.16" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="35.16" x2="45.6" y2="35.16" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="35.16" x2="47.1" y2="35.16" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="35.16" x2="45.6" y2="35.16" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="35.16" x2="47.1" y2="35.16" width="0.1524" layer="16"/>
-</signal>
-<signal name="RXD2">
-<contactref element="PINH-MAIL" pad="16"/>
-<contactref element="PINH-FEMAIL" pad="15"/>
-<via x="45.6" y="25" extent="1-16" drill="0.35"/>
-<via x="47.1" y="25" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="25" x2="45.6" y2="25" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="25" x2="47.1" y2="25" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="25" x2="45.6" y2="25" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="25" x2="47.1" y2="25" width="0.1524" layer="16"/>
-</signal>
-<signal name="SDA">
-<contactref element="PINH-MAIL" pad="18"/>
-<contactref element="PINH-FEMAIL" pad="17"/>
-<via x="45.6" y="22.46" extent="1-16" drill="0.35"/>
-<via x="47.1" y="22.46" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="22.46" x2="45.6" y2="22.46" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="22.46" x2="47.1" y2="22.46" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="22.46" x2="45.6" y2="22.46" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="22.46" x2="47.1" y2="22.46" width="0.1524" layer="1"/>
-</signal>
-<signal name="G2">
-<contactref element="PINH-MAIL" pad="20"/>
-<contactref element="PINH-FEMAIL" pad="19"/>
-<via x="45.6" y="19.92" extent="1-16" drill="0.35"/>
-<via x="47.1" y="19.92" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="19.92" x2="45.6" y2="19.92" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="19.92" x2="47.1" y2="19.92" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="19.92" x2="45.6" y2="19.92" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="19.92" x2="47.1" y2="19.92" width="0.1524" layer="16"/>
-</signal>
-<signal name="IISSK">
-<contactref element="PINH-MAIL" pad="22"/>
-<contactref element="PINH-FEMAIL" pad="21"/>
-<via x="45.6" y="17.38" extent="1-16" drill="0.35"/>
-<via x="47.1" y="17.38" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="17.38" x2="45.6" y2="17.38" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="17.38" x2="47.1" y2="17.38" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="17.38" x2="45.6" y2="17.38" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="17.38" x2="47.1" y2="17.38" width="0.1524" layer="16"/>
-</signal>
-<signal name="IISOUT">
-<contactref element="PINH-MAIL" pad="24"/>
-<contactref element="PINH-FEMAIL" pad="23"/>
-<via x="45.6" y="14.84" extent="1-16" drill="0.35"/>
-<via x="47.1" y="14.84" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="14.84" x2="45.6" y2="14.84" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="14.84" x2="47.1" y2="14.84" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="14.84" x2="45.6" y2="14.84" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="14.84" x2="47.1" y2="14.84" width="0.1524" layer="16"/>
-</signal>
 <signal name="GND">
 <contactref element="PINH-FEMAIL" pad="1"/>
 <contactref element="PINH-FEMAIL" pad="3"/>
 <contactref element="PINH-FEMAIL" pad="5"/>
-<contactref element="PINH-MAIL" pad="2"/>
-<contactref element="PINH-MAIL" pad="4"/>
-<contactref element="PINH-MAIL" pad="6"/>
-<wire x1="46.35" y1="42.78" x2="46.35" y2="40.24" width="1.016" layer="1"/>
-<wire x1="46.35" y1="40.24" x2="46.35" y2="37.7" width="1.016" layer="1"/>
 <wire x1="46.35" y1="42.78" x2="46.35" y2="40.24" width="1.016" layer="16"/>
 <wire x1="46.35" y1="40.24" x2="46.35" y2="37.7" width="1.016" layer="16"/>
 <via x="45.6" y="42.78" extent="1-16" drill="0.35"/>
@@ -478,16 +413,21 @@ design rules under a new name.</description>
 <via x="47.1" y="40.24" extent="1-16" drill="0.35"/>
 <via x="45.6" y="37.7" extent="1-16" drill="0.35"/>
 <via x="47.1" y="37.7" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="42.78" x2="45.6" y2="42.78" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="42.78" x2="47.1" y2="42.78" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="42.78" x2="45.6" y2="42.78" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="42.78" x2="47.1" y2="42.78" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="40.24" x2="47.1" y2="40.24" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="40.24" x2="45.6" y2="40.24" width="0.1524" layer="1"/>
 <wire x1="46.35" y1="40.24" x2="45.6" y2="40.24" width="0.1524" layer="16"/>
 <wire x1="46.35" y1="40.24" x2="47.1" y2="40.24" width="0.1524" layer="16"/>
 <wire x1="46.35" y1="37.7" x2="45.6" y2="37.7" width="0.1524" layer="16"/>
 <wire x1="46.35" y1="37.7" x2="47.1" y2="37.7" width="0.1524" layer="16"/>
+<contactref element="PINH-MAIL" pad="2"/>
+<contactref element="PINH-MAIL" pad="4"/>
+<contactref element="PINH-MAIL" pad="6"/>
+<wire x1="46.35" y1="42.78" x2="46.35" y2="40.24" width="1.016" layer="1"/>
+<wire x1="46.35" y1="40.24" x2="46.35" y2="37.7" width="1.016" layer="1"/>
+<wire x1="46.35" y1="42.78" x2="45.6" y2="42.78" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="42.78" x2="47.1" y2="42.78" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="42.78" x2="45.6" y2="42.78" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="42.78" x2="47.1" y2="42.78" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="40.24" x2="45.6" y2="40.24" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="40.24" x2="47.1" y2="40.24" width="0.1524" layer="1"/>
 <wire x1="46.35" y1="37.7" x2="45.6" y2="37.7" width="0.1524" layer="1"/>
 <wire x1="46.35" y1="37.7" x2="47.1" y2="37.7" width="0.1524" layer="1"/>
 </signal>
@@ -495,11 +435,6 @@ design rules under a new name.</description>
 <contactref element="PINH-FEMAIL" pad="25"/>
 <contactref element="PINH-FEMAIL" pad="27"/>
 <contactref element="PINH-FEMAIL" pad="29"/>
-<contactref element="PINH-MAIL" pad="26"/>
-<contactref element="PINH-MAIL" pad="28"/>
-<contactref element="PINH-MAIL" pad="30"/>
-<wire x1="46.35" y1="12.3" x2="46.35" y2="9.76" width="1.016" layer="1"/>
-<wire x1="46.35" y1="7.22" x2="46.35" y2="9.76" width="1.016" layer="1"/>
 <wire x1="46.35" y1="7.22" x2="46.35" y2="9.76" width="1.016" layer="16"/>
 <wire x1="46.35" y1="9.76" x2="46.35" y2="12.3" width="1.016" layer="16"/>
 <via x="45.6" y="12.3" extent="1-16" drill="0.35"/>
@@ -508,48 +443,23 @@ design rules under a new name.</description>
 <via x="47.1" y="9.76" extent="1-16" drill="0.35"/>
 <via x="45.6" y="7.22" extent="1-16" drill="0.35"/>
 <via x="47.1" y="7.22" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="7.22" x2="47.1" y2="7.22" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="7.22" x2="45.6" y2="7.22" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="7.22" x2="47.1" y2="7.22" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="9.76" x2="47.1" y2="9.76" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="9.76" x2="45.6" y2="9.76" width="0.1524" layer="16"/>
+<contactref element="PINH-MAIL" pad="26"/>
+<contactref element="PINH-MAIL" pad="28"/>
+<contactref element="PINH-MAIL" pad="30"/>
+<wire x1="46.35" y1="12.3" x2="46.35" y2="9.76" width="1.016" layer="1"/>
+<wire x1="46.35" y1="7.22" x2="46.35" y2="9.76" width="1.016" layer="1"/>
 <wire x1="46.35" y1="12.3" x2="45.6" y2="12.3" width="0.1524" layer="16"/>
 <wire x1="46.35" y1="12.3" x2="47.1" y2="12.3" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="7.22" x2="45.6" y2="7.22" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="9.76" x2="45.6" y2="9.76" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="9.76" x2="47.1" y2="9.76" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="9.76" x2="45.6" y2="9.76" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="9.76" x2="47.1" y2="9.76" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="7.22" x2="45.6" y2="7.22" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="7.22" x2="47.1" y2="7.22" width="0.1524" layer="16"/>
 <wire x1="46.35" y1="12.3" x2="45.6" y2="12.3" width="0.1524" layer="1"/>
 <wire x1="46.35" y1="12.3" x2="47.1" y2="12.3" width="0.1524" layer="1"/>
-</signal>
-<signal name="MISO">
-<contactref element="PINH-MAIL" pad="10"/>
-<contactref element="PINH-FEMAIL" pad="9"/>
-<via x="45.6" y="32.62" extent="1-16" drill="0.35"/>
-<via x="47.1" y="32.62" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="32.62" x2="45.6" y2="32.62" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="32.62" x2="47.1" y2="32.62" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="32.62" x2="45.6" y2="32.62" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="32.62" x2="47.1" y2="32.62" width="0.1524" layer="1"/>
-</signal>
-<signal name="SCK">
-<contactref element="PINH-MAIL" pad="12"/>
-<contactref element="PINH-FEMAIL" pad="11"/>
-<via x="45.6" y="30.08" extent="1-16" drill="0.35"/>
-<via x="47.1" y="30.08" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="30.08" x2="47.1" y2="30.08" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="30.08" x2="45.6" y2="30.08" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="30.08" x2="45.6" y2="30.08" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="30.08" x2="47.1" y2="30.08" width="0.1524" layer="16"/>
-</signal>
-<signal name="RXD0">
-<contactref element="PINH-MAIL" pad="14"/>
-<contactref element="PINH-FEMAIL" pad="13"/>
-<via x="45.6" y="27.54" extent="1-16" drill="0.35"/>
-<via x="47.1" y="27.54" extent="1-16" drill="0.35"/>
-<wire x1="46.35" y1="27.54" x2="47.1" y2="27.54" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="27.54" x2="45.6" y2="27.54" width="0.1524" layer="16"/>
-<wire x1="46.35" y1="27.54" x2="45.6" y2="27.54" width="0.1524" layer="1"/>
-<wire x1="46.35" y1="27.54" x2="47.1" y2="27.54" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="9.76" x2="45.6" y2="9.76" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="9.76" x2="47.1" y2="9.76" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="7.22" x2="45.6" y2="7.22" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="7.22" x2="47.1" y2="7.22" width="0.1524" layer="1"/>
 </signal>
 <signal name="G36">
 <contactref element="PINH-FEMAIL" pad="4"/>
@@ -700,6 +610,96 @@ design rules under a new name.</description>
 <wire x1="41.75" y1="42.78" x2="42.5" y2="42.78" width="0.1524" layer="16"/>
 <wire x1="41.75" y1="42.78" x2="41" y2="42.78" width="0.1524" layer="1"/>
 <wire x1="41.75" y1="42.78" x2="42.5" y2="42.78" width="0.1524" layer="1"/>
+</signal>
+<signal name="MOSI">
+<contactref element="PINH-MAIL" pad="8"/>
+<contactref element="PINH-FEMAIL" pad="7"/>
+<via x="45.6" y="35.16" extent="1-16" drill="0.35"/>
+<via x="47.1" y="35.16" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="35.16" x2="45.6" y2="35.16" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="35.16" x2="47.1" y2="35.16" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="35.16" x2="45.6" y2="35.16" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="35.16" x2="47.1" y2="35.16" width="0.1524" layer="1"/>
+</signal>
+<signal name="MISO">
+<contactref element="PINH-MAIL" pad="10"/>
+<contactref element="PINH-FEMAIL" pad="9"/>
+<via x="45.6" y="32.62" extent="1-16" drill="0.35"/>
+<via x="47.1" y="32.62" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="32.62" x2="45.6" y2="32.62" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="32.62" x2="47.1" y2="32.62" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="32.62" x2="45.6" y2="32.62" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="32.62" x2="47.1" y2="32.62" width="0.1524" layer="1"/>
+</signal>
+<signal name="SCK">
+<contactref element="PINH-MAIL" pad="12"/>
+<contactref element="PINH-FEMAIL" pad="11"/>
+<via x="45.6" y="30.08" extent="1-16" drill="0.35"/>
+<via x="47.1" y="30.08" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="30.08" x2="45.6" y2="30.08" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="30.08" x2="47.1" y2="30.08" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="30.08" x2="45.6" y2="30.08" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="30.08" x2="47.1" y2="30.08" width="0.1524" layer="1"/>
+</signal>
+<signal name="RXD0">
+<contactref element="PINH-MAIL" pad="14"/>
+<contactref element="PINH-FEMAIL" pad="13"/>
+<via x="45.6" y="27.54" extent="1-16" drill="0.35"/>
+<via x="47.1" y="27.54" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="27.54" x2="45.6" y2="27.54" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="27.54" x2="47.1" y2="27.54" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="27.54" x2="45.6" y2="27.54" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="27.54" x2="47.1" y2="27.54" width="0.1524" layer="1"/>
+</signal>
+<signal name="RXD2">
+<contactref element="PINH-MAIL" pad="16"/>
+<contactref element="PINH-FEMAIL" pad="15"/>
+<via x="45.6" y="25" extent="1-16" drill="0.35"/>
+<via x="47.1" y="25" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="25" x2="45.6" y2="25" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="25" x2="47.1" y2="25" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="25" x2="45.6" y2="25" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="25" x2="47.1" y2="25" width="0.1524" layer="1"/>
+</signal>
+<signal name="SDA">
+<contactref element="PINH-MAIL" pad="18"/>
+<contactref element="PINH-FEMAIL" pad="17"/>
+<via x="45.6" y="22.46" extent="1-16" drill="0.35"/>
+<via x="47.1" y="22.46" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="22.46" x2="45.6" y2="22.46" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="22.46" x2="47.1" y2="22.46" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="22.46" x2="45.6" y2="22.46" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="22.46" x2="47.1" y2="22.46" width="0.1524" layer="1"/>
+</signal>
+<signal name="G2">
+<contactref element="PINH-MAIL" pad="20"/>
+<contactref element="PINH-FEMAIL" pad="19"/>
+<via x="45.6" y="19.92" extent="1-16" drill="0.35"/>
+<via x="47.1" y="19.92" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="19.92" x2="45.6" y2="19.92" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="19.92" x2="47.1" y2="19.92" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="19.92" x2="45.6" y2="19.92" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="19.92" x2="47.1" y2="19.92" width="0.1524" layer="1"/>
+</signal>
+<signal name="IISSK">
+<contactref element="PINH-MAIL" pad="22"/>
+<contactref element="PINH-FEMAIL" pad="21"/>
+<via x="45.6" y="17.38" extent="1-16" drill="0.35"/>
+<via x="47.1" y="17.38" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="17.38" x2="45.6" y2="17.38" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="17.38" x2="47.1" y2="17.38" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="17.38" x2="45.6" y2="17.38" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="17.38" x2="47.1" y2="17.38" width="0.1524" layer="1"/>
+</signal>
+<signal name="IISOUT">
+<contactref element="PINH-MAIL" pad="24"/>
+<contactref element="PINH-FEMAIL" pad="23"/>
+<via x="45.6" y="14.84" extent="1-16" drill="0.35"/>
+<via x="47.1" y="14.84" extent="1-16" drill="0.35"/>
+<wire x1="46.35" y1="14.84" x2="45.6" y2="14.84" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="14.84" x2="47.1" y2="14.84" width="0.1524" layer="16"/>
+<wire x1="46.35" y1="14.84" x2="45.6" y2="14.84" width="0.1524" layer="1"/>
+<wire x1="46.35" y1="14.84" x2="47.1" y2="14.84" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>

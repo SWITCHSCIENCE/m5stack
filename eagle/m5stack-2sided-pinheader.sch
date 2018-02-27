@@ -288,124 +288,60 @@
 </plain>
 <instances>
 <instance part="PINH-MAIL" gate="PINH-M" x="-10.16" y="0"/>
-<instance part="PINH-FEMAIL" gate="PINH-M" x="17.78" y="0"/>
+<instance part="PINH-FEMAIL" gate="PINH-M" x="55.88" y="0"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="8"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="7"/>
-<wire x1="-5.08" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
-<label x="0" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RXD2" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="16"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="15"/>
-<wire x1="-5.08" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<label x="0" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="18"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="17"/>
-<wire x1="-5.08" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
-<label x="0" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="G2" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="20"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="19"/>
-<wire x1="-5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="91"/>
-<label x="0" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IISSK" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="22"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="21"/>
-<wire x1="-5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
-<label x="0" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IISOUT" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="24"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="23"/>
-<wire x1="-5.08" y1="-10.16" x2="15.24" y2="-10.16" width="0.1524" layer="91"/>
-<label x="0" y="-10.16" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="1"/>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="3"/>
-<wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="17.78" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="5"/>
-<wire x1="15.24" y1="12.7" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<junction x="15.24" y="15.24"/>
+<wire x1="53.34" y1="12.7" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
+<junction x="53.34" y="15.24"/>
+<wire x1="53.34" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<label x="48.26" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="6"/>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="4"/>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="2"/>
 <wire x1="-5.08" y1="17.78" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-5.08" y="15.24"/>
 <wire x1="-5.08" y1="15.24" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="0" y="15.24" size="1.778" layer="95"/>
+<wire x1="-5.08" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
+<label x="0" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HPWR" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="25"/>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="27"/>
-<wire x1="15.24" y1="-12.7" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-12.7" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="29"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="15.24" y="-15.24"/>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="26"/>
+<wire x1="53.34" y1="-17.78" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="53.34" y="-15.24"/>
+<wire x1="53.34" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
+<label x="48.26" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="28"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="30"/>
 <wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-15.24"/>
-<wire x1="15.24" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
-<label x="0" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="10"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="9"/>
-<wire x1="-5.08" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
-<label x="0" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCK" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="12"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="11"/>
-<wire x1="-5.08" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
-<label x="0" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RXD0" class="0">
-<segment>
-<pinref part="PINH-MAIL" gate="PINH-M" pin="14"/>
-<pinref part="PINH-FEMAIL" gate="PINH-M" pin="13"/>
-<wire x1="-5.08" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<label x="0" y="2.54" size="1.778" layer="95"/>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="26"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+<label x="0" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G36" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="4"/>
-<wire x1="22.86" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<label x="38.1" y="15.24" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
+<label x="76.2" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="3"/>
@@ -416,8 +352,8 @@
 <net name="RST" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="6"/>
-<wire x1="27.94" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="66.04" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<label x="66.04" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="5"/>
@@ -428,8 +364,8 @@
 <net name="G25" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="8"/>
-<wire x1="22.86" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
-<label x="38.1" y="10.16" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="10.16" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<label x="76.2" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="7"/>
@@ -440,8 +376,8 @@
 <net name="G26" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="10"/>
-<wire x1="27.94" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
-<label x="27.94" y="7.62" size="1.778" layer="95" xref="yes"/>
+<wire x1="66.04" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+<label x="66.04" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="9"/>
@@ -452,8 +388,8 @@
 <net name="3.3V" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="12"/>
-<wire x1="22.86" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
-<label x="38.1" y="5.08" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="5.08" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
+<label x="76.2" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="11"/>
@@ -464,8 +400,8 @@
 <net name="TXD0" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="14"/>
-<wire x1="22.86" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<label x="27.94" y="2.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="2.54" x2="66.04" y2="2.54" width="0.1524" layer="91"/>
+<label x="66.04" y="2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="13"/>
@@ -481,8 +417,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="30"/>
-<wire x1="22.86" y1="-17.78" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
-<label x="27.94" y="-17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-17.78" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
+<label x="66.04" y="-17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -493,8 +429,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="28"/>
-<wire x1="22.86" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
-<label x="38.1" y="-15.24" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-15.24" x2="76.2" y2="-15.24" width="0.1524" layer="91"/>
+<label x="76.2" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IISIN" class="0">
@@ -505,8 +441,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="26"/>
-<wire x1="22.86" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="-12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-12.7" x2="66.04" y2="-12.7" width="0.1524" layer="91"/>
+<label x="66.04" y="-12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IISMK" class="0">
@@ -517,8 +453,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="24"/>
-<wire x1="22.86" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
-<label x="38.1" y="-10.16" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-10.16" x2="76.2" y2="-10.16" width="0.1524" layer="91"/>
+<label x="76.2" y="-10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IISWS" class="0">
@@ -529,8 +465,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="22"/>
-<wire x1="22.86" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
-<label x="27.94" y="-7.62" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-7.62" x2="66.04" y2="-7.62" width="0.1524" layer="91"/>
+<label x="66.04" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G5" class="0">
@@ -541,8 +477,8 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="20"/>
-<wire x1="22.86" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
-<label x="38.1" y="-5.08" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-5.08" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
+<label x="76.2" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -553,15 +489,15 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="18"/>
-<wire x1="22.86" y1="-2.54" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
-<label x="27.94" y="-2.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
+<label x="66.04" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TXD2" class="0">
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="16"/>
-<wire x1="22.86" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
-<label x="38.1" y="0" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="0" x2="76.2" y2="0" width="0.1524" layer="91"/>
+<label x="76.2" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PINH-MAIL" gate="PINH-M" pin="15"/>
@@ -577,8 +513,116 @@
 </segment>
 <segment>
 <pinref part="PINH-FEMAIL" gate="PINH-M" pin="2"/>
-<wire x1="22.86" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<label x="27.94" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<label x="66.04" y="17.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="8"/>
+<wire x1="-5.08" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="91"/>
+<label x="10.16" y="10.16" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="7"/>
+<wire x1="53.34" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<label x="38.1" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="10"/>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
+<label x="0" y="7.62" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="9"/>
+<wire x1="53.34" y1="7.62" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+<label x="48.26" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="12"/>
+<wire x1="-5.08" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<label x="10.16" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="11"/>
+<wire x1="53.34" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
+<label x="38.1" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RXD0" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="14"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<label x="0" y="2.54" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="13"/>
+<wire x1="53.34" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
+<label x="48.26" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RXD2" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="16"/>
+<wire x1="-5.08" y1="0" x2="10.16" y2="0" width="0.1524" layer="91"/>
+<label x="10.16" y="0" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="15"/>
+<wire x1="53.34" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
+<label x="38.1" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="18"/>
+<wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
+<label x="0" y="-2.54" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="17"/>
+<wire x1="53.34" y1="-2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
+<label x="48.26" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="G2" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="20"/>
+<wire x1="-5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
+<label x="10.16" y="-5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="19"/>
+<wire x1="53.34" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
+<label x="38.1" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IISSK" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="22"/>
+<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="91"/>
+<label x="0" y="-7.62" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="21"/>
+<wire x1="53.34" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
+<label x="48.26" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IISOUT" class="0">
+<segment>
+<pinref part="PINH-MAIL" gate="PINH-M" pin="24"/>
+<wire x1="-5.08" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<label x="10.16" y="-10.16" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PINH-FEMAIL" gate="PINH-M" pin="23"/>
+<wire x1="53.34" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
+<label x="38.1" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
